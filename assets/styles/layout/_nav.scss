@@ -1,0 +1,52 @@
+/* Add a black background color to the top navigation */
+.nav {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 7%;
+    img {
+        width: 150px;
+    }
+    &__links {
+        display: none;
+        .nav__links-list {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            list-style-type: none;
+            .nav__link {
+                color: $text-light;
+                text-decoration: none;
+            }
+            .nav__link--active {
+                color: $light;
+            }
+        }
+    }
+    &__icon {
+        color: $light;
+    }
+    &__icon:hover &__icon:focus {
+        color: $primary;
+    }
+}
+
+.responsive {
+    .nav__links {
+        background-color: red !important;
+        display: inline-block;
+    }
+}
+  
+@media screen and (min-width: 992px) {
+    .nav { 
+        a.nav__icon {
+            display: none;
+        }
+        &__links {
+            display: inline-block;
+        }
+    }
+}

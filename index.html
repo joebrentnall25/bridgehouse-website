@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridgehouse Ambergate | Book your visit today!</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;1,100;1,200&family=Readex+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2b7f6fb16c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="dark">
+        <div id="nav" class="nav">
+            <img src="./assets/images/logo_white.png" alt="Bridgehouse Ambergate">
+            <div class="nav__links">
+                <ul class="nav__links-list">
+                    <li><a class="nav__link nav__link--active" href="#">Home</a></li>
+                    <li><a class="nav__link" href="./menu.html">Menu</a></li>
+                    <li><a class="nav__link" href="#">About</a></li>
+                    <li><a class="nav__link" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <a href="javascript:void(0);" id="nav__icon" class="nav__icon">
+                <i class="fa fa-bars fa-2x"></i>
+              </a>
+        </div>
+    </nav>
+    <header class="container">
+        <div class="hero">
+            <h1 class="hero__title">Long Header Goes Here.</h1>
+            <p class="hero__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="hero__button btn-primary">Click Me</button>
+            <img class="hero__image" src="./assets/images/hero.jpeg" alt="">
+        </div>
+    </header>
+    <section class="dark">
+        <div class="container">
+            <div class="areas">
+                <h2 class="areas__heading secondary">Our Areas</h2>
+                <p class="areas__para">Select an area to see a description, image and button leading to menu.</p>
+                <ul class="areas__buttons">
+                    <li><button data-area="Restaurant" class="areas__button areas__buttons--active">Restaurant</button></li>
+                    <li><button data-area="Bar" class="areas__button">Bar</button></li>
+                    <li><button data-area="Garden" class="areas__button">Garden</button></li>
+                    <li><button data-area="Takeaway" class="areas__button">Takeaway</button></li>
+                </ul>
+                <p class="areas__description" id="areas__description"></p>
+                <a id="areas__link" class="areas__link btn-secondary">View Menu</a>
+                <img class="areas__img" id="areas__img" src="./assets/images/placeholder_area.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="reviews__header container">
+            <h2 class="reviews__heading primary">Our Reviews</h2>
+            <h3>Hear what our customers say.</h3>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            <div class="reviews__buttons">
+                <button class="btn-small" id="reviews__buttons--previous">Previous</button>
+                <button class="btn-small" id="reviews__buttons--next">Next</button>
+            </div>
+        </div>
+        <div class="reviews__review">
+            <h2 id="reviews__name" class="reviews__name tertiary">Ellie Clarke (2021)</h2>
+            <p id="reviews__para" class="reviews__para italics">"This is my review LOL"</p>
+        </div>
+    </section>
+    <section class="table-booking container">
+        <h2 class="primary">Bookings</h2>
+        <h3 class="table-booking__header">Book your table now.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, veritatis.</p>
+        <a href="tel:+441332482549">01332 482549</a>
+    </section>
+    <footer class="footer">
+        <div class="footer__main-content">
+            <div class="footer__basic-info">
+                <img src="./assets/images/logo_white.png" alt="">
+                <p class="footer__para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque repellat laudantium minus quis earum fugiat, iure obcaecati tempora beatae vitae sit corporis.</p>
+                <a class="footer__link-to-maps" href="https://goo.gl/maps/neh3ysAx2RQHVMJW6">Derby Rd, Ambergate, Belper DE56 2EJ</a>
+                <p>Monday-Saturday: <span class="highlight">8am-3pm</span></p>
+                <p>Sunday: <span class="highlight">9am-2pm</span></p>
+            </div>
+            <div class="footer__menus">
+                <h4>Menus</h4>
+                <a href="#">Bar & Garden</a>
+                <a href="#">Restaurant</a>
+                <a href="#">Takeaway</a>
+            </div>
+            <div class="footer__pages">
+                <h4>Pages</h4>
+                <a href="#">Menu</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer__useful-info">
+                <h4>Useful Information</h4>
+                <a href="tel:+441332482549">01332 482549<i class="fas fa-phone"></i></a>
+                <a href="mailto:test@email.com">test@email.com</a>
+                <a href="">Directions</a>
+                <a href="">Trip Advisor</a>
+                <a style="color: #3b5998" href=""><i class="fab fa-facebook fa-3x"></i></a>
+            </div>
+        </div>
+        <div class="footer__copywrite">
+            <p>2021 Bridgehouse Ambergate 
+                All rights reserved</p>
+        </div>
+    </footer>
+    <script src="./app.js" type="module"></script>
+</body>
+</html>

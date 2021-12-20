@@ -1,0 +1,43 @@
+h1 {
+    color: $dark;
+    font-size: 34px;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    color: $dark;
+    font-size: 30px;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: 'Readex Pro', sans-serif;
+}
+h2.primary {
+    color: $primary;
+}
+
+h2.secondary {
+    color: $secondary;
+}
+
+h2.tertiary {
+    color: $light;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: $text-light;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.highlight {
+    color: $secondary;
+}

@@ -1,0 +1,41 @@
+footer {
+    background-color: $dark;
+    padding: 2rem;
+    .footer__main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        img {
+            width: 150px;
+        }
+        h4 {
+            color: $light;
+            margin-bottom: 1rem;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        a {
+            color: $text-light;
+            margin-bottom: 10px;
+        }
+        .footer__para {
+            margin-bottom: 10px;
+        }
+        .footer__link-to-maps {
+            color: $light;
+        }
+    }
+    .footer__copywrite {
+        margin: 2rem 10%;
+        text-align: center;
+        border-top: 2px solid $text-light;
+        padding: 2rem 0;
+    }
+}

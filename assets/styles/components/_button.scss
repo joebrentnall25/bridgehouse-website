@@ -1,0 +1,34 @@
+.btn-primary {
+    padding: 10px 20px;
+    background-color: $dark;
+    border-radius: 5px;
+    border: none;
+    color: $light;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    padding: 10px 20px;
+    background-color: $secondary;
+    border-radius: 5px;
+    border: none;
+    color: $light;
+    text-decoration: none;
+}
+
+.btn-tertiary {
+    padding: 10px 20px; 
+    background-color: $primary;
+    border-radius: 5px;
+    border: none;
+    color: $light;
+    text-decoration: none;
+}
+
+.btn-small {
+    background: transparent;
+    border: none;
+    padding: 5px 0;
+    text-decoration: underline;
+    color: $dark;
+}
