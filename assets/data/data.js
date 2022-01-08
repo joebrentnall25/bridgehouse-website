@@ -34,38 +34,118 @@ const data = {
         }
     ],
     menu: {
-        drinks: {
-            coffee: [
-                "Latte",
-                "Cappuccino",
-                "Espresso",
-                "Black Coffee (Americano)",
-                "Flat White",
-                "Macchiato",
-                "Coffee & Cream",
-                "Mocha",
-            ],
-            hotChoc: [
-                "Plain Hot Chocolate",
-                "Loaded Hot Chocolate"
-            ],
-            tea: [
-                "English Breakfast",
-                "Earl Grey",
-                "Lady Grey",
-                "Red Bush",
-                "Green Tea",
-                "Berry",
-                "Chamomile"
-            ],
-            cold: [
-                "Orange Juice",
-                "Apple Juice",
-                "Cranberry Juice",
-                "Bottled Still Water",
-                "Bottled Carbonated Water"
-            ]
-        },
+        drinks: [
+            {
+                item: "Latte",
+                description: "",
+                category: "Coffee"
+            },
+            {
+                item: "Cappuccino",
+                description: "",
+                category: "Coffee"
+            },
+            {
+                item: "Espresso",
+                description: "",
+                category: "Coffee"
+            },
+            {
+                item: "Black Coffee",
+                description: "Americano",
+                category: "Coffee"
+            },
+            {
+                item: "Flat White",
+                description: "",
+                category: "Coffee"
+            },
+            {
+                item: "Macchiato",
+                description: "",
+                category: "Coffee"
+            },
+            {
+                item: "Coffee & Cream",
+                description: "",
+                category: "Coffee"
+            },
+            {
+                item: "Mocha",
+                description: "",
+                category: "Coffee"
+            },
+            {
+                item: "Plain Hot Chocolate",
+                description: "",
+                category: "Hot Chocolate"
+            },
+            {
+                item: "Loaded Hot Chocolate",
+                description: "",
+                category: "Hot Chocolate"
+            },
+            {
+                item: "English Breakfast",
+                description: "",
+                category: "Tea"
+            },
+            {
+                item: "Earl Grey",
+                description: "",
+                category: "Tea"
+            },
+            {
+                item: "Lady Grey",
+                description: "",
+                category: "Tea"
+            },
+            {
+                item: "Red Bush",
+                description: "",
+                category: "Tea"
+            },
+            {
+                item: "Green Tea",
+                description: "",
+                category: "Tea"
+            },
+            {
+                item: "Berry",
+                description: "",
+                category: "Tea"
+            },
+            {
+                item: "Chamomile",
+                description: "",
+                category: "Tea"
+            },
+            {
+                item: "Orange Juice",
+                description: "",
+                category: "Cold"
+            },
+            {
+                item: "Apple Juice",
+                description: "",
+                category: "Cold"
+            },
+            {
+                item: "Cranberry Juice",
+                description: "",
+                category: "Cold"
+            },
+            {
+                item: "Bottled Still Water",
+                description: "",
+                category: "Cold"
+            },
+            {
+                item: "Bottled Carbonated Water",
+                description: "",
+                category: "Cold"
+            }
+        ],
         main: [
             {
                 item: "Full English",
@@ -259,6 +339,78 @@ const data = {
                 symbols: [],
                 category: "children"
             },  
+        ],
+        barGarden: [
+            {
+                item: "Prosecco, Orange Juice, Coffee, Tea",
+                description: "",
+                category: "Drinks"
+            },
+            {
+                item: "Berries, Granola & Yogurt",
+                description: "",
+                category: "Start with"
+            },
+            {
+                item: "Croissants & Rolls",
+                description: "",
+                category: "Start with"
+            },
+            {
+                item: "Eggs Benedict",
+                description: "",
+                category: "Option 1"
+            },
+            {
+                item: "Eggs Royale",
+                description: "",
+                category: "Option 1"
+            },
+            {
+                item: "Eggs Florentine",
+                description: "",
+                category: "Option 1"
+            },
+            {
+                item: "",
+                description: "All served buffet style on sharing platters.",
+                category: "Option 2"
+            },
+            {
+                item: "Scrambled Eggs",
+                description: "",
+                category: "Option 2"
+            },
+            {
+                item: "Bacon & Sausage",
+                description: "",
+                category: "Option 2"
+            },
+            {
+                item: "Vine Tomatoes",
+                description: "",
+                category: "Option 2"
+            },
+            {
+                item: "Mushrooms",
+                description: "",
+                category: "Option 2"
+            },
+            {
+                item: "Smoked Salmon",
+                description: "",
+                category: "Option 2"
+            },
+            {
+                item: "Avocado",
+                description: "",
+                category: "Option 2"
+            },
+            {
+                item: "Creme Fraiche",
+                description: "",
+                category: "Option 2"
+            },
         ]
     }
 }

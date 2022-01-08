@@ -5,6 +5,7 @@
 // Pages
 @import "./assets/styles/pages/index";
 @import "./assets/styles/pages/menu";
+@import "./assets/styles/pages/contact";
 
 // Components
 @import "./assets/styles/components/button";
@@ -19,4 +20,24 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: $light;
+}
+
+.container {
+    margin: 2rem 10%;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        margin: 2rem 15%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        margin: 2rem 20%;
+    }
 }

@@ -16,12 +16,21 @@
     text-decoration: none;
 }
 
-.btn-tertiary {
+.btn--active {
     padding: 10px 20px; 
     background-color: $primary;
     border-radius: 5px;
     border: none;
     color: $light;
+    text-decoration: none;
+}
+
+.btn-light{
+    padding: 10px 20px;
+    background-color: $light;
+    border-radius: 5px;
+    border: none;
+    color: $dark;
     text-decoration: none;
 }
 

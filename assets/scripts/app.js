@@ -1,11 +1,11 @@
-import data from "./assets/data/data.js";
+import data from "../data/data.js";
 
 const areaButtons = document.getElementsByClassName("areas__button");
 const areasDescription = document.getElementById("areas__description");
 const areasLink = document.getElementById("areas__link");
 const areasImg = document.getElementById("areas__img");
 
-const {areasData, reviews} = data;
+const {areasData, reviews, menu} = data;
 
 const handleAreaChange = (area) => {
     areasDescription.innerHTML = areasData[area].description;
@@ -96,3 +96,4 @@ document.getElementById("reviews__buttons--next").addEventListener("click", chan
 document.getElementById("reviews__buttons--previous").addEventListener("click", changeReviewReverse);
 
 document.getElementById("nav__icon").addEventListener('click', handleNavChange);
+

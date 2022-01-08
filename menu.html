@@ -8,16 +8,88 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header class="container menu-hero">
-        <h2 class="menu-hero__title primary">Menus</h2>
-        <h3 class="menu-hero__subheader">View our menus.</h3>
-        <button data-menu="restaurant" class="menu-hero__btn btn-tertiary">Restaurant</button>
-        <button data-menu="bar-garden" class="menu-hero__btn btn-primary">Bar & Garden</button>
-        <button data-menu="drinks" class="menu-hero__btn btn-primary">Drinks</button>
-        <button data-menu="takeaway" class="menu-hero__btn btn-primary">Takeaway</button>
-    </header>
-    <section id="menu">
-        
-    </section>
+    <nav class="dark">
+        <div id="nav" class="nav">
+            <img src="./assets/images/logo_white.png" alt="Bridgehouse Ambergate">
+            <div class="nav__links">
+                <ul class="nav__links-list">
+                    <li><a class="nav__link nav__link--active" href="#">Home</a></li>
+                    <li><a class="nav__link" href="./menu.html">Menu</a></li>
+                    <li><a class="nav__link" href="#">About</a></li>
+                    <li><a class="nav__link" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <a href="javascript:void(0);" id="nav__icon" class="nav__icon">
+                <i class="fa fa-bars fa-2x"></i>
+              </a>
+        </div>
+    </nav>
+    <main>
+        <header class="container menu-hero">
+            <h2 class="menu-hero__title primary">Menus</h2>
+            <h3 class="menu-hero__subheader">View our menus.</h3>
+            <button data-menu="restaurant" class="menu-hero__btn btn-primary">Restaurant</button>
+            <button data-menu="bar-garden" class="menu-hero__btn btn-primary">Champagne Breakfast</button>
+            <button data-menu="drinks" class="menu-hero__btn btn-primary">Drinks</button>
+            <button data-menu="takeaway" class="menu-hero__btn btn-primary">Takeaway</button>
+        </header>
+        <section class="dark menu">
+            <div class="menu__info container">
+                <div class="menu__info-card">
+                    <img class="menu__info-img" src="./assets/images/gluten-free.png" alt="">
+                    <p class="menu__info-desc">Gluten Free alternatives on most items.</p>
+                </div>
+                <div class="menu__info-card">
+                    <img src="" alt="">
+                    <p>Vegan</p>
+                    <img src="" alt="">
+                    <p>Vegetarian</p>
+                </div>
+            </div>
+            <div id="menu" class="container"></div>
+        </section>
+        <section class="table-booking container">
+            <h2 class="primary">Bookings</h2>
+            <h3 class="table-booking__header">Book your table now.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, veritatis.</p>
+            <a href="tel:+441332482549">01332 482549</a>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__main-content">
+            <div class="footer__basic-info">
+                <img src="./assets/images/logo_white.png" alt="">
+                <p class="footer__para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque repellat laudantium minus quis earum fugiat, iure obcaecati tempora beatae vitae sit corporis.</p>
+                <a class="footer__link-to-maps" href="https://goo.gl/maps/neh3ysAx2RQHVMJW6">Derby Rd, Ambergate, Belper DE56 2EJ</a>
+                <p>Monday-Saturday: <span class="highlight">8am-3pm</span></p>
+                <p>Sunday: <span class="highlight">9am-2pm</span></p>
+            </div>
+            <div class="footer__menus">
+                <h4>Menus</h4>
+                <a href="#">Bar & Garden</a>
+                <a href="#">Restaurant</a>
+                <a href="#">Takeaway</a>
+            </div>
+            <div class="footer__pages">
+                <h4>Pages</h4>
+                <a href="#">Menu</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer__useful-info">
+                <h4>Useful Information</h4>
+                <a href="tel:+441332482549">01332 482549<i class="fas fa-phone"></i></a>
+                <a href="mailto:test@email.com">test@email.com</a>
+                <a href="">Directions</a>
+                <a href="">Trip Advisor</a>
+                <a style="color: #3b5998" href="https://www.facebook.com/BridgeHouseAmbergate"><i class="fab fa-facebook fa-3x"></i></a>
+            </div>
+        </div>
+        <div class="footer__copywrite">
+            <p>2021 Bridgehouse Ambergate 
+                All rights reserved</p>
+        </div>
+    </footer>
+    <script src="./assets/scripts/menu.js" type="module"></script>
 </body>
 </html>
