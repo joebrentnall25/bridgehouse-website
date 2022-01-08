@@ -342,7 +342,22 @@ const data = {
         ],
         barGarden: [
             {
-                item: "Prosecco, Orange Juice, Coffee, Tea",
+                item: "Prosecco",
+                description: "",
+                category: "Drinks"
+            },
+            {
+                item: "Orange Juice",
+                description: "",
+                category: "Drinks"
+            },
+            {
+                item: "Coffee",
+                description: "",
+                category: "Drinks"
+            },
+            {
+                item: "Tea",
                 description: "",
                 category: "Drinks"
             },

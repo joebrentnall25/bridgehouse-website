@@ -28,31 +28,32 @@
         <header class="container menu-hero">
             <h2 class="menu-hero__title primary">Menus</h2>
             <h3 class="menu-hero__subheader">View our menus.</h3>
-            <button data-menu="restaurant" class="menu-hero__btn btn-primary">Restaurant</button>
-            <button data-menu="bar-garden" class="menu-hero__btn btn-primary">Champagne Breakfast</button>
-            <button data-menu="drinks" class="menu-hero__btn btn-primary">Drinks</button>
-            <button data-menu="takeaway" class="menu-hero__btn btn-primary">Takeaway</button>
+            <div class="menu-hero__buttons">
+                <button data-menu="restaurant" class="menu-hero__buttons-btn btn-primary">Restaurant</button>
+                <button data-menu="bar-garden" class="menu-hero__buttons-btn btn-primary">Champagne Breakfast</button>
+                <button data-menu="drinks" class="menu-hero__buttons-btn btn-primary">Drinks</button>
+                <button data-menu="takeaway" class="menu-hero__buttons-btn btn-primary">Takeaway</button>
+            </div>
         </header>
         <section class="dark menu">
             <div class="menu__info container">
                 <div class="menu__info-card">
                     <img class="menu__info-img" src="./assets/images/gluten-free.png" alt="">
                     <p class="menu__info-desc">Gluten Free alternatives on most items.</p>
-                </div>
-                <div class="menu__info-card">
-                    <img src="" alt="">
-                    <p>Vegan</p>
-                    <img src="" alt="">
-                    <p>Vegetarian</p>
+                    <img class="menu__info-img" src="./assets/images/vegan.png" alt="">
+                    <p class="menu__info-desc">Vegan Alternatives available</p>
                 </div>
             </div>
             <div id="menu" class="container"></div>
         </section>
-        <section class="table-booking container">
-            <h2 class="primary">Bookings</h2>
-            <h3 class="table-booking__header">Book your table now.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, veritatis.</p>
-            <a href="tel:+441332482549">01332 482549</a>
+        <section class="table-booking__container container">
+            <div class="table-booking">
+                <h3 class="table-booking__header">Book your table now.</h3>
+                <div class="table-booking__info">
+                    <p class="table-booking__info-text">If you would like to book a table with us. Get in touch by phone.</p>
+                    <a class="table-booking__info-phone" href="tel:+441332482549">01332 482549</a>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer">

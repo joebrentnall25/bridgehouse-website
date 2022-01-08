@@ -10,7 +10,7 @@ const handleMenuButtonChange = (event) => {
     let menuHtml = "";
     let finalHtml = "";
 
-    const buttons = document.getElementsByClassName("menu-hero__btn");
+    const buttons = document.getElementsByClassName("menu-hero__buttons-btn");
 
     for (let i = 0; i<buttons.length; i++){
         buttons[i].classList.remove("btn--active");
@@ -84,7 +84,7 @@ const getCategoriesHtml = (foodArr) => {
     return menuHtml+menuCardHtml;
 }
 
-const menuButtons = document.getElementsByClassName("menu-hero__btn");
+const menuButtons = document.getElementsByClassName("menu-hero__buttons-btn");
 for(let i=0; i<menuButtons.length; i++){
     menuButtons[i].addEventListener('click', handleMenuButtonChange);
 }
