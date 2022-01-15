@@ -1,9 +1,9 @@
-footer {
+.footer {
     background-color: $dark;
     padding: 2rem;
     .footer__main-content {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -37,5 +37,40 @@ footer {
         text-align: center;
         border-top: 2px solid $text-light;
         padding: 2rem 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        .footer__main-content {
+            grid-template-columns: 1fr 1fr;
+            .footer__basic-info {
+                margin-top:2rem;
+                &-para{
+                    padding: 0 20%;
+                    margin-bottom: 0.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .footer {
+        padding-top: 4rem;
+        .footer__main-content {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            align-items: flex-start;
+            .footer__basic-info {
+                margin-top: 0;
+                &-para{
+                    padding: 0 20%;
+                    margin-bottom: 0.5rem;
+                }
+            }
+            h4 {
+                margin-top: 0.5rem;
+            }
+        }
     }
 }

@@ -75,16 +75,6 @@ const changeReviewReverse = () => {
     reviewsPara.innerHTML = reviews[reviewIndex].review;
 }
 
-const handleNavChange = () => {
-    console.log(nav.classList[0])
-    var nav = document.getElementById("nav");
-    if (nav.className === "nav") {
-        nav.classList.add("responsive");
-    } else {
-        nav.className = "nav";
-    }
-}
-
 window.onload = () => {
     handleAreaChange("Restaurant");
     setStyles("Restaurant")
@@ -94,6 +84,4 @@ window.onload = () => {
 document.getElementById("reviews__buttons--next").addEventListener("click", changeReviewForward);
 
 document.getElementById("reviews__buttons--previous").addEventListener("click", changeReviewReverse);
-
-document.getElementById("nav__icon").addEventListener('click', handleNavChange);
 
