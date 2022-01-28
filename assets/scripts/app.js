@@ -14,7 +14,7 @@ const handleAreaChange = (area) => {
 
 const setStyles = (area) => {
     const Restaurant = areaButtons[0];
-    const Bar = areaButtons[1];
+    const Bar = Buttons[1];
     const Garden = areaButtons[2];
     const Takeaway = areaButtons[3];
 
@@ -25,6 +25,7 @@ const setStyles = (area) => {
 
     if (area == "Restaurant") {
         Restaurant.classList.add('areas__buttons--active');
+        console.log('rest')
     } else if (area == "Bar") {     
         Bar.classList.add('areas__buttons--active');        
     } else if (area == "Garden") {

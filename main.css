@@ -47,6 +47,25 @@ p {
   color: #3b5998;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #929597;
+}
+
+main {
+  background-color: #F0F0F0;
+}
+
+.container {
+  padding: 2rem 10%;
+}
+
 body {
   background-color: #F0F0F0;
 }
@@ -75,9 +94,10 @@ body {
 }
 
 .areas {
-  background-color: #33383D;
-  padding-top: 15rem;
-  padding-bottom: 2rem;
+  padding: 2rem 10%;
+}
+.areas__heading {
+  color: #570D2A;
 }
 .areas__para {
   width: 80vw;
@@ -94,13 +114,13 @@ body {
   list-style-type: none;
 }
 .areas__buttons li .areas__buttons--active {
-  color: #CE9864;
+  color: #570D2A;
 }
 .areas__buttons li button {
   margin: 1rem 0;
   background: transparent;
   border: none;
-  color: #F0F0F0;
+  color: #929597;
   text-decoration: underline;
   padding: 5px;
 }
@@ -319,6 +339,56 @@ body {
     margin-top: 0;
   }
 }
+.about-events__heading {
+  color: #CE9864;
+  margin-bottom: 1rem;
+}
+.about-events__para {
+  margin-bottom: 0.5rem;
+}
+.about-events__contact-mail {
+  margin-left: 0.5rem;
+}
+.about-parking {
+  background-color: #33383D;
+}
+.about-parking__header {
+  color: #CE9864;
+  margin-bottom: 1rem;
+}
+.about-parking__text {
+  margin-bottom: 0.5rem;
+}
+.about-map {
+  height: 400px;
+  width: 100%;
+}
+.about-info {
+  background-color: #33383D;
+  display: flex;
+  justify-content: space-between;
+}
+.about-info__contact {
+  text-align: right;
+}
+.about-info__contact a {
+  color: #929597;
+  display: block;
+}
+.about-gallary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  row-gap: 1rem;
+  column-gap: 1rem;
+}
+.about-gallary__img {
+  height: 125px;
+  width: 125px;
+  background-color: #33383D;
+}
+
 .btn-primary {
   padding: 10px 20px;
   background-color: #33383D;
@@ -544,30 +614,5 @@ body {
   }
   .footer .footer__main-content h4 {
     margin-top: 0.5rem;
-  }
-}
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-main {
-  background-color: #F0F0F0;
-}
-
-.container {
-  margin: 2rem 10%;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    margin: 2rem 15%;
-  }
-}
-@media screen and (min-width: 992px) {
-  .container {
-    margin: 2rem 20%;
   }
 }

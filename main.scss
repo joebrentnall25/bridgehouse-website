@@ -1,11 +1,14 @@
 // Utility 
 @import "./assets/styles/utility/variables";
 @import "./assets/styles/utility/typography";
+@import "./assets/styles/utility/resets";
 
 // Pages
 @import "./assets/styles/pages/index";
 @import "./assets/styles/pages/menu";
 @import "./assets/styles/pages/contact";
+@import "./assets/styles/pages/construction";
+@import "./assets/styles/pages/about";
 
 // Components
 @import "./assets/styles/components/button";
@@ -15,29 +18,3 @@
 @import "./assets/styles/layout/nav";
 @import "./assets/styles/layout/footer";
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-main {
-    background-color: $light;
-}
-
-.container {
-    margin: 2rem 10%;
-}
-
-@media screen and (min-width: 768px) {
-    .container {
-        margin: 2rem 15%;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .container {
-        margin: 2rem 20%;
-    }
-}
